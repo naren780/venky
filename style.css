@@ -1,0 +1,19 @@
+body{
+    background-color: brown;
+}
+.navbar{
+    padding:4.5rem;
+
+}
+.navbar-brand{
+    font-family:ubuntu;
+    font-size:2.5rem ;
+    font-weight:bold ;
+}
+.nav-item{
+    padding:0 10px;
+}
+.nav-link{
+    font-family:montserrat-light ;
+    font-size:1.2rem ;
+}

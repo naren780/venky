@@ -1,0 +1,340 @@
+*{
+    margin: 0%;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#title{
+    background-color:rgba(3, 3, 47, 0.925);
+    color:#fff;
+    
+    
+    
+}
+header{
+    background-color:rgba(3, 3, 47, 0.925);
+    position: fixed;
+    height:auto ;
+    width:100%;
+
+
+}
+.container-fluid{
+
+padding: 5% 3%;;
+}
+h1{
+    font-family:montserrat-black ;
+    font-size:4.5rem ;
+    line-height: 1.5;
+    padding-top: 3%;
+}
+h4{
+    color: rgba(28, 28, 129, 0.918);
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.para1{
+    font-size: 2.5rem;
+}
+span{
+    border:none;
+    border-bottom: 3px solid rgb(128, 240, 128);
+    font-weight: bolder;
+}
+
+/*comtainer*/
+/*navabar*/
+
+.navbar{
+    padding:0% 3%;
+    
+
+}
+.navbar-brand{
+    font-family:ubuntu;
+    font-size:2.5rem ;
+    font-weight:bold ;
+}
+.nav-item{
+    padding:0 10px;
+}
+.nav-link{
+    font-family:montserrat-light ;
+    font-size:1.2rem ;
+}
+    
+
+.down-btn{
+    border-radius: 20px;
+    
+    background-color: rgb(128, 240, 128);
+    color: #fff;
+    
+    
+}
+/*title image*/
+.title-img{
+    width:70%;
+  padding-left: 4.5rem;
+  padding-bottom: 0%;
+  padding-top: 15%;  
+}
+.col-image{
+    text-align: center;
+    padding-left: 8%;
+}
+.title-cg{
+    padding-top: 5%;
+}
+/*about*/
+#about{
+    padding-top: 7% 3% 0% 5%;
+}
+.about-img{
+    padding-top: 30%;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:3.rem ;
+    line-height: 1;
+    color: rgba(28, 28, 129, 0.918);
+    text-align: left;
+
+
+}
+.para-about{
+    
+    padding-top: 15px;
+    text-align: left;
+}
+h3{
+    padding-top: 9%;
+    
+    text-align: left;
+
+}
+h5{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 0%;
+}
+/*feature*/
+#features{
+    padding:5% 3%;
+    background-color: #fff;
+
+}
+.ture-col{
+    background-color: aliceblue;
+   padding:2% 0%;
+  margin:0.5% 0.5%;
+    
+}
+
+
+/*project*/
+#project{
+    padding:3% 3%;
+
+    
+}
+.hpy{
+    width:370px;
+   height: 220px;
+   background-color: #fff;
+   border:none;
+   display: inline-block;
+   margin:1% 1.5%;
+   text-align: center; 
+   padding: 0% 0.5%;
+   justify-content: center;
+
+}
+.swamy{
+    padding:10% 3.5%;
+    background-color: aliceblue;
+    justify-content: center;
+}
+/*icon*/
+.icon-pro{
+    position: relative;
+    color: springgreen;
+    bottom:40px;
+
+}
+.project-col{
+    padding:3% 3%;
+}
+p{
+    line-height: 2;
+}
+.project-icon{
+    color:springgreen;
+}
+
+
+  /*gallery*/
+  #gallery{
+    padding:3% 3%;
+  }
+  .col-gallery{
+    padding:0.5% 1%;
+    
+  }
+  
+
+
+
+
+
+  /*test*/
+  #testimonials{
+    background-color:rgba(28, 28, 129, 0.918); ;
+    color:#fff;
+    text-align: center;
+   /* padding:7% 3%;*/
+
+}
+.text-img{
+    width:10%;
+    border-radius:100px;
+    
+}
+/*carasoul*/
+.carousel-item{
+    padding:7% 15%;
+}
+
+
+
+
+      /*pricing*/
+
+
+
+
+
+#pricing{
+    padding:5% 3%;
+}
+.card-pricing{
+ text-align: center;
+
+}
+.prcing-title{
+    border-radius: 20px;
+    color:#fff;
+    padding:10px 5px;
+    
+}
+.no{
+color:rgb(68, 246, 68);
+font-weight: bolder;
+text-decoration: none;
+}
+.pricing-row{
+    padding:3% 3%;
+}
+.card-deck{
+    padding-top: 2%;
+}
+
+
+
+/*team*/
+#team{
+    padding:3% 3%;
+}
+.card-title{
+    color: rgba(28, 28, 129, 0.918);
+}
+.card-text{
+    color: rgba(28, 28, 129, 0.918);
+}
+
+.col-team{
+    padding:0% 1% 1%;
+    color:rgba(28, 28, 129, 0.918); 
+    text-align: center;
+}
+.icon-team{
+    padding:0% 0.5%;
+}
+/*contact*/
+#contact{ 
+    padding:3% 3%;
+}
+h3{
+    color: rgba(28, 28, 129, 0.918);
+    font-weight: bold;
+
+}
+.p1{
+    color:rgba(28, 28, 129, 0.918);
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+
+/*icon*/
+.icon-contact{
+    color:rgba(28, 28, 129, 0.918);
+    display: inline-block;
+    
+}
+textarea{
+    padding:45px 375px;
+    margin-top: 20px;
+}
+form{
+    padding-top: 50px;
+    
+}
+.contact-btn{
+    border-radius: 50px;
+}
+
+/*fQA*/
+
+#fqa{
+    padding: 5% 3%;
+    margin: 10px;
+    background-color: rgba(0,0,0,.125);
+}
+.question-icon{
+    color:rgba(58, 240, 179, 0.637);
+    padding-right: 10px;
+}
+#naren{
+    margin:2% 0%;
+    padding: 3% 0%;
+}
+a{
+    color:black;
+    padding:1% 0%;
+    border-radius: 0%;
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+    background-color: none;
+    color:rgba(58, 240, 179, 0.637);
+}
+/*footer*/
+#ctp{
+    background-color:rgba(3, 3, 47, 0.925);
+    color:#fff;
+    padding:3% 3% ;
+}
+footer{
+    padding-top: 10% ;
+
+
+}
+.icon-foot{
+    padding:2% 2%;
+}
+
+
